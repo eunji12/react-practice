@@ -21,7 +21,7 @@ frs.map(function(cur){
 })
 ```
 
-**  jsx에서 return 같은 레벨의 태그만( h2, span> 만 추가했더니 에러 발생 => 시작과 끝 태그가 있는걸로 묶어줘야한다
+**  jsx에서 return 같은 레벨의 태그만( h2, span 만 추가했더니 에러 발생 => 시작과 끝 태그가 있는걸로 묶어줘야한다
 ```
 <div>
 	<h2>
@@ -30,7 +30,17 @@ frs.map(function(cur){
 ```
 - Props/Prop-types
 
-## 10/22 (예정)
-- State, class Component
-- 리액트 개발자 도구 다운받기 
+## 10/22
+- retrun html 에서 <div>와 같은 태그로 묶는 대신 fragment 사용하기 / CRA로 생성시 <Fragment></Fragment>로 한번 묶어줘야함(업뎃 예정)
+- es7 react~~ 플러그인 설치 rfc(react functional component), rcc(~class~) 로 자동 생성하네~
+- es5 에서 그만 벗어나자 ~ es6 스타일로 펑션 생성하기
+- react es6 https://velog.io/@kyusung/React를-위한-ES6
+
+*  리액트 개발자 도구 다운받기 
 https://reactjs.org/blog/2015/09/02/new-react-developer-tools.html#installation
+
+- 매일 조금씩 !!
+
+
+## 10/23(예정)
+- State, class Component
