@@ -8,11 +8,11 @@ class App extends Component {
   };
   add = () =>{
     // his.setState({count :this.state.count+1});
-    this.setState(current => ({count:current.count+1}));
+    this.setState(current => {count: current.count+1});
   };
   minus = () => {
     // this.setState({count : this.state.count-1});
-    this.setState(current => ({count:current.count-1}));
+    this.setState(current => {count: current.count-1});
   };
   
 

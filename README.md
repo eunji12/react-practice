@@ -47,4 +47,6 @@ https://reactjs.org/blog/2015/09/02/new-react-developer-tools.html#installation
 - 예정이였으나 저녁에 텐동먹고 체해서 아까운 내 하루 안녕 ~
 
 ## 10/24
+- Class Components and State
+- setState()를 하면 state를 리프레쉬~ 하고 render function을 호출한다
 - 
