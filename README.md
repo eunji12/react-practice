@@ -49,3 +49,6 @@ https://reactjs.org/blog/2015/09/02/new-react-developer-tools.html#installation
 ## 10/24
 - Class Components and State
 - setState()를 하면 state를 리프레쉬~ 하고 render function을 호출한다
+
+## 10/25
+- 라이프 사이클!
