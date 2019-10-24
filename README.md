@@ -44,3 +44,7 @@ https://reactjs.org/blog/2015/09/02/new-react-developer-tools.html#installation
 
 ## 10/23(예정)
 - State, class Component
+- 예정이였으나 저녁에 텐동먹고 체해서 아까운 내 하루 안녕 ~
+
+## 10/24
+- 
