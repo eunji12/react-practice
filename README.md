@@ -50,5 +50,16 @@ https://reactjs.org/blog/2015/09/02/new-react-developer-tools.html#installation
 - Class Components and State
 - setState()를 하면 state를 리프레쉬~ 하고 render function을 호출한다
 
-## 10/25
+## 10/25 ~ 10/26
 - 라이프 사이클!
+- data fetch -> axios로!
+: https://hoorooroob.tistory.com/entry/React-React-Naive-TIPS-axios-%EC%99%80-fetch-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0%EA%B9%8C
+- JSON VIEW 크롬 확장 프로그램 설치 - JSON이 예쁘게 보인다
+- https://yts-proxy.now.sh/list_movies.json | yts api 사용하여 영화 앱 만들기
+- async, await
+: https://joshua1988.github.io/web-development/javascript/js-async-await/
+: https://blueshw.github.io/2018/02/27/async-await/
+
+
+## 10/27
+- gh-pages & done
