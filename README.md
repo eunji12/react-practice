@@ -63,3 +63,5 @@ https://reactjs.org/blog/2015/09/02/new-react-developer-tools.html#installation
 
 ## 10/27
 - gh-pages & done
+- react에서 태그에 클래스 명 부여는 className을 써줘야한다 div class ='name' -> div className ='name'
+- esLint /Prettier - Code formatter 설치
