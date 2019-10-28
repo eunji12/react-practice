@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import Movie from './components/Movie';
+import './css/App.css';
 
 class App extends React.Component {
   constructor() {
@@ -13,9 +14,6 @@ class App extends React.Component {
 
   componentDidMount() {
     console.log('Did Mounted!');
-    // setTimeout(() => {
-    //     this.setState({isLoading:false, book: 'how to study'});
-    // },2000);
     this.getMovies();
   }
 
@@ -29,7 +27,7 @@ class App extends React.Component {
   }
 
   getMovies = async () => {
-    const { data: { data: { movies } } } = await axios.get('https://yts-proxy.now.sh/list_movies.json?sort_by=rating&limit=5');
+    const { data: { data: { movies } } } = await axios.get('https://yts-proxy.now.sh/list_movies.json?sort_by=rating&limit=10');
     console.log(movies);
     this.setState({ movies, isLoading: false });
   }
@@ -42,7 +40,7 @@ class App extends React.Component {
         {
           isLoading ? (
             <div className="loader">
-              <span className="loader__text">Loading..</span>
+              <span className="loader__text">Loading ..</span>
             </div>
           ) : (
             <div className="movies">
